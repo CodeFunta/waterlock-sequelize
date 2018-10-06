@@ -41,12 +41,12 @@ provision:
 	@echo "+------------------------------------+"
 	$(SAILS) new $(TESTAPP)
 	cd $(TESTAPP) && \
-	npm install git+https://git@github.com/waterlock/waterlock-local-auth.git --save && \
+	npm install git+https://git@github.com/CodeFunta/waterlock-local-auth.git --save && \
 	install-local ../ && \
 	$(WATERLOCK) generate all
 
 localauth:
-	npm install git@github.com:waterlock/waterlock-local-auth.git
+	npm install git@github.com:CodeFunta/waterlock-local-auth.git
 
 jshint:
 	@echo "+------------------------------------+"
