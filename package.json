@@ -49,7 +49,7 @@
     "coveralls": "*",
     "istanbul": "*",
     "sails": "^1.0.0-37",
-    "sequelize": "^5.0.0-beta.12",
+    "sequelize": "github:CodeFunta/sequelize#v4",
     "jshint": "*"
   },
   "preferGlobal": false,
